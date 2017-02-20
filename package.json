@@ -1,6 +1,6 @@
 {
   "name": "geetest2",
-  "version": "5.10.1",
+  "version": "5.10.2",
   "description": "the Geetest 2.0 captcha library on npm and a demo",
   "main": "dist/geetest.js",
   "scripts": {
@@ -9,9 +9,11 @@
   "contributors": [
     {
       "name": "lhtin",
-      "email": "lehuading@qq.com"
+      "email": "lehuading@qq.com",
+      "url": "geetest.com"
     }
   ],
+  "repository": "https://github.com/GeeTeam/geetest2-npm",
   "license": "ISC",
   "devDependencies": {
     "body-parser": "^1.16.1",
