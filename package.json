@@ -1,6 +1,6 @@
 {
   "name": "geetest2",
-  "version": "5.10.2",
+  "version": "5.11.0",
   "description": "the Geetest 2.0 captcha library on npm and a demo",
   "main": "dist/geetest.js",
   "scripts": {
