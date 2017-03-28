@@ -1,4 +1,4 @@
-var Geetest = require('../../dist/geetest-npm.5.12.0'); // geetest2 on npm
+var Geetest = require('../../'); // geetest2 on npm
 var $ = require('jquery'); // just use jquery for ajax
 
 var login = function (result) {
