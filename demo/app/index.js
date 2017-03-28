@@ -1,4 +1,4 @@
-var Geetest = require('../../dist/geetest-npm.5.11.0'); // geetest2 on npm
+var Geetest = require('../../dist/geetest-npm.5.12.0'); // geetest2 on npm
 var $ = require('jquery'); // just use jquery for ajax
 
 var login = function (result) {
@@ -25,7 +25,7 @@ $.get('/api/gt-register?t=' + (new Date().getTime()), null, function (data) {
         challenge: data.challenge,
         offline: !data.success,
         product: 'embed',
-        jsonp: true,
+        // jsonp: true,
         lang: 'en'
     });
 
